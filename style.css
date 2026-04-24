@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 25px;
+}
+
+
+
+
+header {
+  background: rgb(119, 119, 119);
+  color: white;
+  text-align: center;
+  ;
+  padding: 15px;
+  font-size: 150%;
+  font-family: Courier New, monospace
+}
+
+section{
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.imagens img {
+  width: 300px ;
+  height: auto;
+
+}
+
+.Annoying_Dog{
+  text-align: center;
+}
+
+.Annoying_Dog img {
+  width: 200px;
+  height: auto;
+  position: relative;
+  left: 0%;
+  top: 0%;
+}
+
+.Jogos_criados {
+  text-align: center;
+  background-color: firebrick;
+  padding: 25px;
+
+  table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Essencial para notar o centralizamento */
+}
+
+}
+
+td, th {
+  text-align: center; /* Opções: left, right, center, justify */
+}
+
+td, th {
+  vertical-align: middle; /* Opções: top, bottom, middle */
+  height: 50px; /* Exemplo de altura para notar o alinhamento */
+}
+
+
