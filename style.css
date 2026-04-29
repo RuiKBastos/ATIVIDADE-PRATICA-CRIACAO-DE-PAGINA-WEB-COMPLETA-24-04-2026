@@ -8,7 +8,7 @@ body {
 
 
 header {
-  background: rgb(119, 119, 119);
+ background: linear-gradient(to bottom, #940000, #b9b304);
   color: white;
   text-align: center;
   text-shadow: 0.5px 0.5px rgba(150, 188, 253, 0.211);
@@ -52,6 +52,7 @@ section {
   position: relative;
   left: 0%;
   top: 0%;
+ border-radius: 15px;
 }
 
 .Jogos_criados {
@@ -63,7 +64,6 @@ section {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    /* Essencial para notar o centralizamento */
   }
 
 }
@@ -71,15 +71,12 @@ section {
 td,
 th {
   text-align: center;
-  /* Opções: left, right, center, justify */
 }
 
 td,
 th {
   vertical-align: middle;
-  /* Opções: top, bottom, middle */
   height: 50px;
-  /* Exemplo de altura para notar o alinhamento */
 }
 
 .OFF {
@@ -106,7 +103,7 @@ th {
 .imagens_verticais_OFF img {
   width: 350px;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .imagens_verticais_OFF2 {
@@ -120,7 +117,7 @@ th {
 .imagens_verticais_OFF2 img {
   width: 350px;
   height: auto;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .form {
@@ -162,6 +159,10 @@ h2 {
   padding: 50px;
 }
 
+.Undertale h1{
+    padding: 50px;
+}
+
 
 .Undertale_imagens {
   display: grid;
@@ -180,8 +181,12 @@ h2 {
 
 .Deltarune {
   background-size: cover;
-  background-image: url(Undertale_background_image_1.png);
+  background-image: url(Deltarune_background_image_3.jpg);
   padding: 50px;
+}
+
+.Deltarune h1 {
+    padding: 50px;
 }
 
 .Deltarune_imagens {
