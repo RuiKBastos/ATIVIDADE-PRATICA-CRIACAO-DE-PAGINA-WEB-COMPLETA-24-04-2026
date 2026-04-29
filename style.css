@@ -133,3 +133,44 @@ button{
 h2 {
   text-align: center;
 }
+
+.Undertale {
+  background-size: cover;
+  background-image: url(Undertale_background_image_1.png);
+  padding: 50px;
+}
+
+
+.Undertale_imagens {
+ display: grid;
+ grid-template-columns: repeat(3, 2fr);
+ gap: 10px;
+ place-items: center;
+}
+
+
+.Undertale_imagens img {
+  width: 75%;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+.Deltarune {
+  background-size: cover;
+  background-image: url(Undertale_background_image_1.png);
+  padding: 50px;
+}
+
+.Deltarune_imagens {
+ display: grid;
+ grid-template-columns: repeat(3, 2fr);
+ gap: 10px;
+ place-items: center;
+}
+
+.Deltarune_imagens img {
+  width: 75%;
+  height: auto;
+  border-radius: 5px; 
+}
