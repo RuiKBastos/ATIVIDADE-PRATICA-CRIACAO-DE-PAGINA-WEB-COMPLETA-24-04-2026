@@ -11,26 +11,39 @@ header {
   background: rgb(119, 119, 119);
   color: white;
   text-align: center;
-  ;
+  text-shadow: 0.5px 0.5px rgba(150, 188, 253, 0.211);
+  color: #000000;
   padding: 15px;
   font-size: 150%;
   font-family: Courier New, monospace
 }
 
-section{
-  font-size: 17px;
+section {
+  font-size: 20px;
   text-align: center;
 }
 
+.imagens {
+   overflow: hidden;
+}
 
 .imagens img {
-  width: 300px ;
+  width: 300px;
   height: auto;
+     transition: transform 0.15s ease;
 
 }
 
-.Annoying_Dog{
+.imagens :hover {
+  transform: scale(1.2);
+}
+
+.Annoying_Dog {
   text-align: center;
+  text-shadow: 1px 1px rgb(206, 202, 202);
+  color: #000000;
+  padding-bottom: 15px;
+
 }
 
 .Annoying_Dog img {
@@ -47,20 +60,26 @@ section{
   padding: 25px;
 
   table {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; /* Essencial para notar o centralizamento */
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* Essencial para notar o centralizamento */
+  }
 
 }
 
-td, th {
-  text-align: center; /* Opções: left, right, center, justify */
+td,
+th {
+  text-align: center;
+  /* Opções: left, right, center, justify */
 }
 
-td, th {
-  vertical-align: middle; /* Opções: top, bottom, middle */
-  height: 50px; /* Exemplo de altura para notar o alinhamento */
+td,
+th {
+  vertical-align: middle;
+  /* Opções: top, bottom, middle */
+  height: 50px;
+  /* Exemplo de altura para notar o alinhamento */
 }
 
 .OFF {
@@ -78,20 +97,20 @@ td, th {
 
 
 .imagens_verticais_OFF {
-    display: flex;
+  display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
 }
 
 .imagens_verticais_OFF img {
-    width: 350px ;
+  width: 350px;
   height: auto;
   border-radius: 5px;
 }
 
 .imagens_verticais_OFF2 {
-    display: flex;
+  display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: left;
@@ -99,14 +118,14 @@ td, th {
 
 
 .imagens_verticais_OFF2 img {
-  width: 350px ;
+  width: 350px;
   height: auto;
   border-radius: 5px;
 }
 
 .form {
-    width: 450px;      /* define uma largura */
-    margin: 0 auto;    /* centraliza horizontalmente */
+  width: 450px;
+  margin: 0 auto;
 }
 
 form {
@@ -114,25 +133,28 @@ form {
   margin: 0 auto;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 7px;
   align-items: center;
 }
 
-button{
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 8px;
-    border: rgb(252, 244, 244);
-    cursor: pointer;
-    
+button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  border: rgb(252, 244, 244);
+  cursor: pointer;
+
 
 }
 
 h2 {
   text-align: center;
 }
+
+
 
 .Undertale {
   background-size: cover;
@@ -142,10 +164,10 @@ h2 {
 
 
 .Undertale_imagens {
- display: grid;
- grid-template-columns: repeat(3, 2fr);
- gap: 10px;
- place-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  place-items: center;
 }
 
 
@@ -153,7 +175,7 @@ h2 {
   width: 75%;
   height: auto;
   border-radius: 5px;
-  
+
 }
 
 .Deltarune {
@@ -163,14 +185,14 @@ h2 {
 }
 
 .Deltarune_imagens {
- display: grid;
- grid-template-columns: repeat(3, 2fr);
- gap: 10px;
- place-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  place-items: center;
 }
 
 .Deltarune_imagens img {
   width: 75%;
   height: auto;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
